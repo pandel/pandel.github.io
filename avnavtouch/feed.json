@@ -27,7 +27,7 @@
             "id": "https://pandel.github.io/avnavtouch/avnavtouch-wenn-die-erste-version-nicht-das-gelbe-vom-ei-ist.html",
             "url": "https://pandel.github.io/avnavtouch/avnavtouch-wenn-die-erste-version-nicht-das-gelbe-vom-ei-ist.html",
             "title": "avnavTouch - Wenn die erste Version nicht das Gelbe vom Ei ist...",
-            "content_html": "Tja, was soll ich sagen... da haben sich in der ersten Version doch schon ein paar kleine Problemchen eingeschlichen. Vor allem Schwierigkeiten in puncto WLAN am \"älteren\" Raspberry Pi 3 B sind aufgetreten. Die werden im nächsten Release gefixt sein. Desweiteren wird es ein feines kleines Konfigurationstool geben, mit diejenigen von euch, die doch nur den reinen Serverbetrieb möchten, das sofort nach der Installation einstellen können... und noch ein paar Dinge mehr ;-)",
+            "content_html": "<p>Tja, was soll ich sagen... da haben sich in der ersten Version doch schon ein paar kleine Problemchen eingeschlichen. Vor allem Schwierigkeiten in puncto WLAN am \"älteren\" Raspberry Pi 3 B sind aufgetreten. Die werden im nächsten Release gefixt sein. Desweiteren wird es ein feines kleines Konfigurationstool geben, mit diejenigen von euch, die doch nur den reinen Serverbetrieb möchten, das sofort nach der Installation einstellen können... und noch ein paar Dinge mehr ;-)</p>\n<p>Also: bitte das aktuelle Image mit der Bezeichnung<br>\"avnav_touch-20180530.zip\" <br>am Besten nur am RPi 3<strong>B+</strong> nutzen, derzeit am \"alten\" RPi 3 nicht zuverlässig, ich habe mir jetzt noch einen \"alten\" besorgt und arbeite dran.</p>",
             "image": "https://pandel.github.io/avnavtouch/media/posts/12/",
             "author": {
                 "name": "Holger Pandel"
@@ -35,7 +35,7 @@
             "tags": [
             ],
             "date_published": "2018-06-18T14:00:16+02:00",
-            "date_modified": "2018-06-18T14:00:16+02:00"
+            "date_modified": "2018-06-18T14:26:51+02:00"
         }
     ]
 }
