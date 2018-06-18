@@ -3,42 +3,43 @@
     <title>pandels-softwareecke</title>
     <link href="https://pandel.github.io/avnavtouch/feed.xml" rel="self" />
     <link href="https://pandel.github.io/avnavtouch" />
-    <updated>2018-06-18T13:55:29+02:00</updated>
+    <updated>2018-06-18T14:03:27+02:00</updated>
     <author>
         <name>Holger Pandel</name>
     </author>
     <id>https://pandel.github.io/avnavtouch</id>
 
     <entry>
-        <title>avnavTouch</title>
+        <title>Ein Willkommen! darf nicht fehlen ;-)</title>
         <author>
             <name>Holger Pandel</name>
         </author>
-        <link href="https://pandel.github.io/avnavtouch/avnavTouch.html"/>
-        <id>https://pandel.github.io/avnavtouch/avnavTouch.html</id>
-            <category term="anavTouch"/>
+        <link href="https://pandel.github.io/avnavtouch/Ein-Willkommen-darf-nicht-fehlen-.html"/>
+        <id>https://pandel.github.io/avnavtouch/Ein-Willkommen-darf-nicht-fehlen-.html</id>
 
-        <updated>2018-06-18T13:51:02+02:00</updated>
+        <updated>2018-06-18T14:02:44+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://pandel.github.io/avnavtouch/media/posts/3/" alt="" />
-                <p>avnavTouch basiert auf dem wunderbaren <a href="http://www.wellenvogel.net/software/avnav/" target="_blank" rel="noopener noreferrer">avnav</a> von Andreas Vogel und erweitert die Funktionalität um folgende Punkte:</p>
-<p><strong>avNavTouch Funktionsübersicht</strong></p>
-<ul>
-<li>Aktualisierte OS Version: Rapsbian Stretch (Jessie bekommt leider keine Updates mehr)<br><br></li>
-<li>Erstinstallation via PINN startet Touch Mode, ist aber jederzeit umschaltbar zum Headless-Mode (Skript aufrufen, Modus umstellen booten, fertig)<br><br></li>
-<li>Touch Mode: startet ohne Systemmeldungen, sondern mit nettem avnav Screenshot und geht direkt in die Oberfläche<br><br></li>
-<li>Touch Mode: On-Screen Tastatur OnBoard, keine Hardware nötig (außer, man hat zu dicke Finger)<br><br></li>
-<li>Touch Mode: automatischer Kartenabgleich bei Einstecken eines USB Sticks<br><br></li>
-<li>Touch Mode: Daemon "twofing" sorgt für eine bequeme Mehr-Finger-Bedienung, also Scrollen mit zwei Fingern durch Wegpunkte oder AIS Listen, Pinch-To-Zoom in der Karte, etc. geht alles<br><br></li>
-<li>Touch Mode: Original avnav WebUI im Fullscreen Mode, es wird zusätzlich auf einem 2. Desktop die das Script avnav_setup.sh gestartet, so dass man trotzdem auch mal eben was umstellen oder auf eine Konsole wechseln kann (via VNC oder alternativ mit Tastatur)<br>-&gt; Wechsel auf den 2.Desktop mit STR-ALT-PfeilNachRechts<br><br></li>
-<li>Touch Mode: VNC Server aktivierbar, um via WLAN auf die Oberfläche zugreifen zu können<br><br></li>
-<li>Headless Mode: normale Konsolenmeldungen, wie gewohnt inkl. Login (User: pi/ Pass: raspberry, wie gewohnt)<br><br></li>
-<li>in beiden Modi: bei Einstecken eines RTL-SDR Receivers (aktuell konfiguriert für NooElec NESDR SMArt, aber jederzeit via udev erweiterbar, siehe unten) wird automatisch rtl_ais gestartet und stellt AIS Daten bereit<br><br></li>
-<li>für RTL-SDR: das Tool kalibrate-rtl steht zur Einmessung des Frequenzoffsets bereit<br><br></li>
-<li>Zentrales Konfigurationsscript: avnav_setup.sh</li>
-</ul>
+                    <img src="https://pandel.github.io/avnavtouch/media/posts/13/" alt="" />
+                Ein lautstarkes "Herzlich Willkommen!" einem jeden, der sich auf diese Seite verirrt!
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>avnavTouch - Wenn die erste Version nicht das Gelbe vom Ei ist...</title>
+        <author>
+            <name>Holger Pandel</name>
+        </author>
+        <link href="https://pandel.github.io/avnavtouch/avnavtouch-wenn-die-erste-version-nicht-das-gelbe-vom-ei-ist.html"/>
+        <id>https://pandel.github.io/avnavtouch/avnavtouch-wenn-die-erste-version-nicht-das-gelbe-vom-ei-ist.html</id>
+
+        <updated>2018-06-18T14:00:16+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://pandel.github.io/avnavtouch/media/posts/12/" alt="" />
+                Tja, was soll ich sagen... da haben sich in der ersten Version doch schon ein paar kleine Problemchen eingeschlichen. Vor allem Schwierigkeiten in puncto WLAN am "älteren" Raspberry Pi 3 B sind aufgetreten. Die werden im nächsten Release gefixt sein. Desweiteren wird es ein feines kleines Konfigurationstool geben, mit diejenigen von euch, die doch nur den reinen Serverbetrieb möchten, das sofort nach der Installation einstellen können... und noch ein paar Dinge mehr ;-)
             ]]>
         </content>
     </entry>
