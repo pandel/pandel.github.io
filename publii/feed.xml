@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>pandels-softwareecke</title>
-    <link href="http://pandel.github.io/publii/feed.xml" rel="self" />
-    <link href="http://pandel.github.io/publii" />
-    <updated>2018-06-18T12:07:20+02:00</updated>
+    <link href="https://pandel.github.io/publii/feed.xml" rel="self" />
+    <link href="https://pandel.github.io/publii" />
+    <updated>2018-06-18T12:21:34+02:00</updated>
     <author>
         <name>Holger Pandel</name>
     </author>
-    <id>http://pandel.github.io/publii</id>
+    <id>https://pandel.github.io/publii</id>
 
     <entry>
         <title>avnavTouch</title>
         <author>
             <name>Holger Pandel</name>
         </author>
-        <link href="http://pandel.github.io/publii/avnav-Touch.html"/>
-        <id>http://pandel.github.io/publii/avnav-Touch.html</id>
+        <link href="https://pandel.github.io/publii/avnav-Touch.html"/>
+        <id>https://pandel.github.io/publii/avnav-Touch.html</id>
             <category term="anavTouch"/>
 
         <updated>2018-06-18T11:44:21+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <img src="http://pandel.github.io/publii/media/posts/3/" alt="" />
+                    <img src="https://pandel.github.io/publii/media/posts/3/" alt="" />
                 <p>avnavTouch basiert auf dem wunderbaren <a href="http://www.wellenvogel.net/software/avnav/" target="_blank" rel="noopener noreferrer">avnav</a> von Andreas Vogel und erweitert die Funktionalität um folgende Punkte:</p>
 <p><strong>avNavTouch Funktionsübersicht</strong></p>
 <ul>
