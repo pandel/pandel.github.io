@@ -1,0 +1,28 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "pandels-softwareecke",
+    "description": "",
+    "home_page_url": "http://pandel.github.io/publii",
+    "feed_url": "http://pandel.github.io/publii/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Holger Pandel"
+    },
+    "items": [
+        {
+            "id": "http://pandel.github.io/publii/avnav-Touch.html",
+            "url": "http://pandel.github.io/publii/avnav-Touch.html",
+            "title": "avnavTouch",
+            "content_html": "<p>avnavTouch basiert auf dem wunderbaren <a href=\"http://www.wellenvogel.net/software/avnav/\" target=\"_blank\" rel=\"noopener noreferrer\">avnav</a> von Andreas Vogel und erweitert die Funktionalität um folgende Punkte:</p>\n<p><strong>avNavTouch Funktionsübersicht</strong></p>\n<ul>\n<li>Installation als PINN Image (im Grunde ein deutlich besseres NOOBS): unter Windows ZIP Datei auf eine SD Karte packen und dann direkt aufm Raspi booten und installieren, bei Bedarf können weitere OS hinzugefügt werden (ich hab bei mir noch für die abendliche Spielkindphase Retropie drauf gepackt ;-), da kann man, bei langweiliger Lektüre, auch mal ne Runde Super Mario Kart fahren, wenn man denn mag )<br><br></li>\n<li>Aktualisierte OS Version: Rapsbian Stretch (Jessie bekommt leider keine Updates mehr)<br><br></li>\n<li>Erstinstallation via PINN erfolgt im Touch Mode - man braucht im Grunde keine Tastatur, ist aber jederzeit umschaltbar zum Headless-Mode (Skript aufrufen, booten, fertig)<br><br></li>\n<li>Touch Mode: startet ohne Systemmeldungen, sondern mit nettem avnav Screenshot und geht direkt in die Oberfläche<br><br></li>\n<li>Headless Mode: normale Konsolenmeldungen, wie gewohnt inkl. Login (User: pi/ Pass: raspberry, wie gewohnt)<br><br></li>\n<li>Touch Mode: schöne On-Screen Tastatur, keine Hardware nötig (außer, man hat zu dicke Finger)<br><br></li>\n<li>Touch Mode: automatischer Kartenabgleich bei Einstecken eines USB Sticks<br><br></li>\n<li>Touch Mode: Daemon \"twofing\" sorgt für eine bequeme Mehr-Finger-Bedienung, also Scrollen mit zwei Fingern durch Wegpunkte oder AIS Listen, Pinch-To-Zoom in der Karte, etc. geht alles<br><br></li>\n<li>Touch Mode: Original avnav WebUI im Fullscreen Mode, es wird zusätzlich im Background eine xterm Instanz gestartet, so dass man trotzdem auch mal eben auf der Konsole was machen kann, alternativ einfach mit Str-Alt-F(2-6) auf eine normale Konsole schalten (da braucht es dann aber wieder eine richtige, eingesteckte Tastatur)<br><br></li>\n<li>in beiden Modi: bei Einstecken eines RTL-SDR Receivers (aktuell konfiguriert für NooElec NESDR SMArt, aber jederzeit via udev erweiterbar, siehe unten) wird automatisch rtl_ais gestartet und stellt AIS Daten bereit<br><br></li>\n<li>für RTL-SDR: das Tool kalibrate-rtl steht zur Einmessung des Frequenzoffsets bereit<br><br></li>\n<li>Zentrales Konfigurationsscript: avnav_setup.sh</li>\n</ul>",
+            "image": "http://pandel.github.io/publii/media/posts/3/",
+            "author": {
+                "name": "Holger Pandel"
+            },
+            "tags": [
+                   "anavTouch"
+            ],
+            "date_published": "2018-06-18T11:33:16+02:00",
+            "date_modified": "2018-06-18T11:44:21+02:00"
+        }
+    ]
+}
