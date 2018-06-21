@@ -13,7 +13,7 @@
             "id": "https://pandel.github.io/avnavtouch/alle-welt-liebt-videos.html",
             "url": "https://pandel.github.io/avnavtouch/alle-welt-liebt-videos.html",
             "title": "Alle Welt liebt Videos...",
-            "content_html": "<p>... und weil das so ist, hab ich natürlich auch ein paar gemacht.</p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uV9wu_QfAZw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p> </p>\n<p> <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jq03G0yibgE?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/v7r5fCE2SuA\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8QF0zwWBFlo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p> <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fckjF5fuvDs?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>",
+            "content_html": "<p>... und weil das so ist, hab ich natürlich auch ein paar gemacht.</p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uV9wu_QfAZw?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jq03G0yibgE?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/v7r5fCE2SuA?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8QF0zwWBFlo?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/fckjF5fuvDs?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/i_xmDktFmN8?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>",
             "image": "https://pandel.github.io/avnavtouch/media/posts/16/aufnahme-aufzeichnen-bildschirm-66134.jpg",
             "author": {
                 "name": "Holger Pandel"
@@ -24,7 +24,7 @@
                    "Installation"
             ],
             "date_published": "2018-06-21T17:52:54+02:00",
-            "date_modified": "2018-06-21T20:25:15+02:00"
+            "date_modified": "2018-06-21T21:13:03+02:00"
         },
         {
             "id": "https://pandel.github.io/avnavtouch/so-langsam-macht-es-sich.html",
@@ -46,7 +46,7 @@
             "id": "https://pandel.github.io/avnavtouch/avnavtouch-konfigurationstool.html",
             "url": "https://pandel.github.io/avnavtouch/avnavtouch-konfigurationstool.html",
             "title": "avnavTouch Konfigurationstool",
-            "content_html": "<h4>Preview: ein neue Helfer ist mit an Bord</h4>\n<h2>avnavTouch Konfigurationstool</h2>\n<p><img src=\"https://pandel.github.io/avnavtouch/media/posts/14/avnavKonfigtool.PNG\" alt=\"\" width=\"806\" height=\"485\"></p>\n<p>Mit Hilfe des neuen Konfigurationstools können verschiedene Einstellungen vorgenommen werden, ohne auf eine Kommandozeile wechseln zu müssen.</p>\n<p> </p>\nWie hier zu sehen, steht das Konfigurationstool je nach Oberfläche sowohl als Touch-fähige Variante, als auch auf der Konsole zur Verfügung. \n<p><img class=\"post__image--center\" src=\"https://pandel.github.io/avnavtouch/media/posts/14/Konfigtool.png\" alt=\"\" width=\"800\" height=\"480\"></p>\n<p> </p>",
+            "content_html": "<h4>Preview: ein neue Helfer ist mit an Bord</h4>\n<h2>avnavTouch Konfigurationstool</h2>\n<p><img src=\"https://pandel.github.io/avnavtouch/media/posts/14/avnavKonfigtool.PNG\" alt=\"\" width=\"806\" height=\"485\"></p>\n<p>Mit Hilfe des neuen Konfigurationstools können verschiedene Einstellungen vorgenommen werden, ohne auf eine Kommandozeile wechseln zu müssen.</p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/i_xmDktFmN8?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p>Wie hier zu sehen, steht das Konfigurationstool je nach Oberfläche sowohl als Touch-fähige Variante, als auch auf der Konsole zur Verfügung. </p>\n<p><img class=\"post__image--center\" src=\"https://pandel.github.io/avnavtouch/media/posts/14/Konfigtool.png\" alt=\"\" width=\"800\" height=\"480\"></p>\n<p> </p>",
             "image": "https://pandel.github.io/avnavtouch/media/posts/14/avnavKonfigtool.PNG",
             "author": {
                 "name": "Holger Pandel"
@@ -56,7 +56,7 @@
                    "Konfigurationstool"
             ],
             "date_published": "2018-06-18T22:05:14+02:00",
-            "date_modified": "2018-06-21T17:58:22+02:00"
+            "date_modified": "2018-06-21T21:12:36+02:00"
         },
         {
             "id": "https://pandel.github.io/avnavtouch/Ein-Willkommen-darf-nicht-fehlen-.html",
