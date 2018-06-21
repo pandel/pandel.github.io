@@ -3,12 +3,81 @@
     <title>pandels-softwareecke</title>
     <link href="https://pandel.github.io/avnavtouch/feed.xml" rel="self" />
     <link href="https://pandel.github.io/avnavtouch" />
-    <updated>2018-06-18T14:27:05+02:00</updated>
+    <updated>2018-06-21T18:03:05+02:00</updated>
     <author>
         <name>Holger Pandel</name>
     </author>
     <id>https://pandel.github.io/avnavtouch</id>
 
+    <entry>
+        <title>Alle Welt liebt Videos...</title>
+        <author>
+            <name>Holger Pandel</name>
+        </author>
+        <link href="https://pandel.github.io/avnavtouch/Alle-Welt-liebt-Videos....html"/>
+        <id>https://pandel.github.io/avnavtouch/Alle-Welt-liebt-Videos....html</id>
+            <category term="avnavTouch"/>
+            <category term="Videos"/>
+            <category term="Installation"/>
+
+        <updated>2018-06-21T18:02:36+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://pandel.github.io/avnavtouch/media/posts/16/" alt="" />
+                <p>... und weil das so ist, hab ich natürlich auch ein paar gemacht.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/uV9wu_QfAZw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></p>
+<p> </p>
+<p> <iframe width="560" height="315" src="https://www.youtube.com/embed/jq03G0yibgE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>So langsam macht es sich...</title>
+        <author>
+            <name>Holger Pandel</name>
+        </author>
+        <link href="https://pandel.github.io/avnavtouch/so-langsam-macht-es-sich.html"/>
+        <id>https://pandel.github.io/avnavtouch/so-langsam-macht-es-sich.html</id>
+
+        <updated>2018-06-21T17:38:10+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://pandel.github.io/avnavtouch/media/posts/15/" alt="" />
+                <p>Heute gibt's die neue Version: avnavTouch 0.5! Endlich hab ich's fertig...</p>
+<p>Hat ja auch ein paar Wochen gedauert. Es war aber auch viel Feinabstimmung und dank der Hinweise einiger sehr netter Forenmitglieder aus dem segeln-forum.de war ich in der Lage, den ein oder anderen Bock auszubügeln.</p>
+<p>Nichtsdestotrotz: wer Fehler findet, immer her damit!</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>avnavTouch Konfigurationstool</title>
+        <author>
+            <name>Holger Pandel</name>
+        </author>
+        <link href="https://pandel.github.io/avnavtouch/avnavtouch-konfigurationstool.html"/>
+        <id>https://pandel.github.io/avnavtouch/avnavtouch-konfigurationstool.html</id>
+            <category term="avnavTouch"/>
+            <category term="Konfigurationstool"/>
+
+        <updated>2018-06-21T17:58:22+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://pandel.github.io/avnavtouch/media/posts/14/avnavKonfigtool.PNG" alt="" />
+                <h4>Preview: ein neue Helfer ist mit an Bord</h4>
+<h2>avnavTouch Konfigurationstool</h2>
+<p><img src="https://pandel.github.io/avnavtouch/media/posts/14/avnavKonfigtool.PNG" alt="" width="806" height="485"></p>
+<p>Mit Hilfe des neuen Konfigurationstools können verschiedene Einstellungen vorgenommen werden, ohne auf eine Kommandozeile wechseln zu müssen.</p>
+<p> </p>
+Wie hier zu sehen, steht das Konfigurationstool je nach Oberfläche sowohl als Touch-fähige Variante, als auch auf der Konsole zur Verfügung. 
+<p><img class="post__image--center" src="https://pandel.github.io/avnavtouch/media/posts/14/Konfigtool.png" alt="" width="800" height="480"></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Ein Willkommen! darf nicht fehlen ;-)</title>
         <author>
@@ -34,11 +103,11 @@
         <link href="https://pandel.github.io/avnavtouch/avnavtouch-wenn-die-erste-version-nicht-das-gelbe-vom-ei-ist.html"/>
         <id>https://pandel.github.io/avnavtouch/avnavtouch-wenn-die-erste-version-nicht-das-gelbe-vom-ei-ist.html</id>
 
-        <updated>2018-06-18T14:26:51+02:00</updated>
+        <updated>2018-06-18T22:08:40+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://pandel.github.io/avnavtouch/media/posts/12/" alt="" />
+                    <img src="https://pandel.github.io/avnavtouch/media/posts/12/chaos-ei-eierschale-33819.jpg" alt="" />
                 <p>Tja, was soll ich sagen... da haben sich in der ersten Version doch schon ein paar kleine Problemchen eingeschlichen. Vor allem Schwierigkeiten in puncto WLAN am "älteren" Raspberry Pi 3 B sind aufgetreten. Die werden im nächsten Release gefixt sein. Desweiteren wird es ein feines kleines Konfigurationstool geben, mit diejenigen von euch, die doch nur den reinen Serverbetrieb möchten, das sofort nach der Installation einstellen können... und noch ein paar Dinge mehr ;-)</p>
 <p>Also: bitte das aktuelle Image mit der Bezeichnung<br>"avnav_touch-20180530.zip" <br>am Besten nur am RPi 3<strong>B+</strong> nutzen, derzeit am "alten" RPi 3 nicht zuverlässig, ich habe mir jetzt noch einen "alten" besorgt und arbeite dran.</p>
             ]]>
