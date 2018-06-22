@@ -3,7 +3,7 @@
     <title>pandels-softwareecke</title>
     <link href="https://pandel.github.io/avnavtouch/feed.xml" rel="self" />
     <link href="https://pandel.github.io/avnavtouch" />
-    <updated>2018-06-22T12:08:50+02:00</updated>
+    <updated>2018-06-22T13:01:26+02:00</updated>
     <author>
         <name>Holger Pandel</name>
     </author>
@@ -236,6 +236,40 @@
 </ul>
 <p>PINN kümmert sich um alles weitere und am Ende hat man ein schönes Bootmenü und kann zwischen avnavTouch und dem Zusatz-OS wählen.</p>
 <p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>avnavTouch</title>
+        <author>
+            <name>Holger Pandel</name>
+        </author>
+        <link href="https://pandel.github.io/avnavtouch/avnavtouch.html"/>
+        <id>https://pandel.github.io/avnavtouch/avnavtouch.html</id>
+            <category term="avnavTouch"/>
+            <category term="Allgemein"/>
+
+        <updated>2018-06-22T12:16:56+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://pandel.github.io/avnavtouch/media/posts/3/avnavTouch-Onboard.png" alt="" />
+                <p>avnavTouch <img src="https://pandel.github.io/avnavtouch/media/posts/3/avnavTouch.png" alt="" width="40" height="40"> basiert auf dem wunderbaren <a href="http://www.wellenvogel.net/software/avnav/" target="_blank" rel="noopener noreferrer">avnav</a> von Andreas Vogel und erweitert die Funktionalität um folgende Punkte:</p>
+<p><strong>avNavTouch Funktionsübersicht</strong></p>
+<ul>
+<li>Aktualisierte OS Version: Rapsbian Stretch (Jessie bekommt leider keine Updates mehr)<br><br></li>
+<li>Erstinstallation via PINN startet Touchmodus, ist aber jederzeit umschaltbar zum Servermodus (Skript aufrufen, Modus umstellen booten, fertig)<br><br></li>
+<li>Touchmodus: startet ohne Systemmeldungen, sondern mit nettem avnav Screenshot und geht direkt in die Oberfläche<br><br></li>
+<li>Touchmodus: On-Screen Tastatur OnBoard, keine Hardware nötig (außer, man hat zu dicke Finger)<br><br></li>
+<li>Touchmodus: automatischer Kartenabgleich bei Einstecken eines USB Sticks<br><br></li>
+<li>Touchmodus: Daemon "twofing" sorgt für eine bequeme Mehr-Finger-Bedienung, also Scrollen mit zwei Fingern durch Wegpunkte oder AIS Listen, Pinch-To-Zoom in der Karte, etc. geht alles<br><br></li>
+<li>Touchmodus: Original avnav WebUI im Fullscreen Mode, es wird zusätzlich auf einem 2. Desktop die das Script avnav_setup.sh gestartet, so dass man trotzdem auch mal eben was umstellen oder auf eine Konsole wechseln kann (via VNC oder alternativ mit Tastatur)<br>-&gt; Wechsel auf den 2.Desktop mit STR-ALT-PfeilNachRechts<br><br></li>
+<li>Touchmodus: VNC Server aktivierbar, um via WLAN auf die Oberfläche zugreifen zu können<br><br></li>
+<li>Servermodus: normale Konsolenmeldungen, wie gewohnt inkl. Login (User: pi/ Pass: raspberry, wie gewohnt)<br><br></li>
+<li>in beiden Modi: bei Einstecken eines RTL-SDR Receivers (aktuell konfiguriert für NooElec NESDR SMArt, aber jederzeit via udev erweiterbar, siehe unten) wird automatisch rtl_ais gestartet und stellt AIS Daten bereit<br><br></li>
+<li>für RTL-SDR: das Tool kalibrate-rtl steht zur Einmessung des Frequenzoffsets bereit<br><br></li>
+<li>Zentrales Konfigurationsscript: <em>sudo avnav_setup.sh</em><br>Dieses Tool steht im Touchmodus auf dem zweiten Desktop (erreichbar über STRG-ALT-PfeilNachRechts) dauerhaft zur Verfügung. Alternativ kann es auch im Servermodus mit dem genannten Befehl gestartet werden.</li>
+</ul>
             ]]>
         </content>
     </entry>
