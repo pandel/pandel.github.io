@@ -3,12 +3,34 @@
     <title>pandels-softwareecke</title>
     <link href="https://pandel.github.io/avnavtouch/feed.xml" rel="self" />
     <link href="https://pandel.github.io/avnavtouch" />
-    <updated>2018-06-22T14:06:30+02:00</updated>
+    <updated>2018-06-22T15:01:24+02:00</updated>
     <author>
         <name>Holger Pandel</name>
     </author>
     <id>https://pandel.github.io/avnavtouch</id>
 
+    <entry>
+        <title>v0.5 - Die ersten Fehler</title>
+        <author>
+            <name>Holger Pandel</name>
+        </author>
+        <link href="https://pandel.github.io/avnavtouch/v05-die-ersten-fehler.html"/>
+        <id>https://pandel.github.io/avnavtouch/v05-die-ersten-fehler.html</id>
+            <category term="avnavTouch"/>
+
+        <updated>2018-06-22T14:58:17+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://pandel.github.io/avnavtouch/media/posts/17/dropped-fail-failure-4091.jpg" alt="" />
+                <p>Wäre ja auch zu schön, wenn mal alles glatt laufen würde. Egal, Tränen abwischen und weitermachen.</p>
+<p>Die ersten Fehlerberichte trudeln ein. Darunter gesellen sich so illustre Dinge, wie (wird fortgesetzt, wenn nötig):</p>
+<ul>
+<li>WLAN Passwort Länge wird im avnav_setup nicht geprüft, erzeugt evtl. fehlerhaften Eintrag in der wpa_supplicant.conf</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Alle Welt liebt Videos...</title>
         <author>
@@ -158,24 +180,29 @@
         <link href="https://pandel.github.io/avnavtouch/roadmap.html"/>
         <id>https://pandel.github.io/avnavtouch/roadmap.html</id>
 
-        <updated>2018-06-22T14:04:47+02:00</updated>
+        <updated>2018-06-22T15:01:10+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                     <img src="https://pandel.github.io/avnavtouch/media/posts/8/asphalt-desert-freedom-248759.jpg" alt="" />
                 <h6>Allgemeine Punkt</h6>
 <ul>
-<li>Integration von <a href="https://github.com/linusg/rpi-backlight" target="_blank" rel="noopener noreferrer">https://github.com/linusg/rpi-backlight</a></li>
+<li>Evtl. Trennung von allgemeinen Menüpunkten und Konfiguration, d. h. ein eigenes Menü auf dem zweiten Desktop, aus dem sich bei Bedarf eben auch avnav_setup starten lässt</li>
 </ul>
 <h6>Planungen für's Konfigurationstool</h6>
 <ul>
 <li>Einfügen eines neuen RTL-SDR Receivers in die bestehende udev-Regel</li>
 <li>Frequenzoffsetanpassung</li>
+<li>Prüfung des WLAN Kennwortes auf Länge (8-63 Zeichen)</li>
+<li>Aufnahme der wpa_supplicant.conf/hostapd.conf mit ins Backup</li>
+<li>Möglichkeit zur Backup Rücksicherung</li>
 </ul>
 <h6>Planungen für avnavTouch</h6>
 <ul>
 <li><span style="text-decoration: line-through;">automatisierte Backups der Benutzerdaten via USB Stick</span> - erledigt: 0.5v</li>
 <li><span style="text-decoration: line-through;">Release Konfigurationstool</span> - erledigt: 0.5v</li>
+<li>Integration von <a href="https://github.com/linusg/rpi-backlight" target="_blank" rel="noopener noreferrer">https://github.com/linusg/rpi-backlight</a> als Menüpunkt in avnav_setup</li>
+<li>eventuell: Player Integration: <a href="https://github.com/KenT2/tboplayer" class="externalURL">https://github.com/KenT2/tboplayer</a></li>
 </ul>
             ]]>
         </content>
@@ -224,48 +251,6 @@
                 <h6>Kartenimport und -update via USB Stick (nur im Touchmodus verfügbar)</h6>
 <p><br>Karten müssen einfach nur in einem Ordner mit dem Namen "charts" (alles Kleinbuchstaben) auf einem Stick (FAT32) liegen, dann werden sie automatisch mit dem Stand auf dem Raspi abgeglichen. D. h. der Stand auf dem Raspi wird mit dem auf dem Stick gleichgezogen, also auch Karten gelöscht, falls nicht auf dem Stick(!). Es kommen ein paar netten Meldungen und der Stick wird, wenn fertig, wieder ausgehängt und kann einfach entfernt werden (ist derzeit für den reinen Serverbetrieb nicht geplant, wenn Bedarf besteht, mach ich das aber).</p>
 <p><br>Bitte auf jeden Fall warten bis die "Stick kann entfernt werden" Meldung kommt! Ansonsten ist der Schreibvorgang noch aktiv!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Installation</title>
-        <author>
-            <name>Holger Pandel</name>
-        </author>
-        <link href="https://pandel.github.io/avnavtouch/installation.html"/>
-        <id>https://pandel.github.io/avnavtouch/installation.html</id>
-            <category term="avnavTouch"/>
-            <category term="Installation"/>
-
-        <updated>2018-06-22T13:09:47+02:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://pandel.github.io/avnavtouch/media/posts/4/board-business-chips-163073.jpg" alt="" />
-                <h6>Vorbedingungen</h6>
-<p>Die Installation erfolgt via PINN Image direkt von der SD Karte. Für die allererste Inbetriebnahme wird eine Tastatur benötigt, da direkt im Anschluss an den ersten Start ein paar grundlegende Konfigurationseinstellungen durchgeführt werden müssen. Dafür wird ist eine Tastatur nötig.</p>
-<h6>Speicherkarte</h6>
-<p>Es wird eine SD Karte mit mindestens 8 GB Speicher benötigt. Aber je größer, desto besser, aus zwei Gründen:</p>
-<p>a) es sollte genug Platz für die verwendeten Seekarten vorhanden sein<br>b) je größer die Karte, desto schneller in der Regel ist sie auch</p>
-<h6>Ablauf</h6>
-<ol>
-<li>SD Karte Formatieren, am besten mit <a href="http://download.pcwelt.de/area_release/files/87/7D/877D79AE5667B65EDE5DAFDF83D67697/SDFormatterv4.zip">SD Formatter 4.0</a></li>
-<li>heruntergeladene ZIP Datei direkt auf die Karte entpacken</li>
-<li>Karte über Windows ordentlich aushängen, in den Raspi stecken, booten</li>
-<li>im erscheinenden Menü unten die Sprache auf "Deutsch" ändern</li>
-<li>ein Häkchen vor "avnavTouch" setzen</li>
-<li>auf Installieren klicken, warten bis fertig, booten, freuen</li>
-</ol>
-<h6>Empfehlung</h6>
-<p>Es ist evtl. günstig, noch ein weiteres System auf der Karte zu installieren, um im Fehlerfall noch booten zu können. Sofern am Installationsort ein WLAN-Netz bereit steht, lässt sich das ganz leicht bereits während der Grundinstallation erledigen:</p>
-<ul>
-<li>im PINN Startdialog das WiFi-Kennwort des bestehenden WLANs eingeben</li>
-<li>PINN lädt die Liste der online verfügbaren OS Installationen herunter</li>
-<li>zusätzlich zu avnavTouch ein OS auswählen, ich empfehle DietPi (schön klein und kann alles, was nötig ist)</li>
-<li>Installation starten</li>
-</ul>
-<p>PINN kümmert sich um alles weitere und am Ende hat man ein schönes Bootmenü und kann zwischen avnavTouch und dem Zusatz-OS wählen.</p>
-<p> </p>
             ]]>
         </content>
     </entry>
