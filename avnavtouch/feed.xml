@@ -3,7 +3,7 @@
     <title>pandels-softwareecke</title>
     <link href="https://pandel.github.io/avnavtouch/feed.xml" rel="self" />
     <link href="https://pandel.github.io/avnavtouch" />
-    <updated>2018-06-22T17:13:44+02:00</updated>
+    <updated>2018-06-23T03:47:13+02:00</updated>
     <author>
         <name>Holger Pandel</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://pandel.github.io/avnavtouch/v05-die-ersten-fehler.html</id>
             <category term="avnavTouch"/>
 
-        <updated>2018-06-22T15:04:03+02:00</updated>
+        <updated>2018-06-23T03:45:24+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -27,6 +27,7 @@
 <p>Die ersten Fehlerberichte trudeln ein. Darunter gesellen sich so illustre Dinge, wie (wird fortgesetzt, wenn nötig):</p>
 <ul>
 <li>WLAN Passwort Länge wird im avnav_setup nicht geprüft, erzeugt evtl. fehlerhaften Eintrag in der wpa_supplicant.conf</li>
+<li>Ich habe die falsche Version vom Konfigurator mitgeliefert. Der läuft nur im Touchmodus rund. Dämlicher geht's kaum...</li>
 </ul>
             ]]>
         </content>
@@ -180,7 +181,7 @@
         <link href="https://pandel.github.io/avnavtouch/roadmap.html"/>
         <id>https://pandel.github.io/avnavtouch/roadmap.html</id>
 
-        <updated>2018-06-22T15:01:10+02:00</updated>
+        <updated>2018-06-23T03:45:49+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -188,6 +189,7 @@
                 <h6>Allgemeine Punkt</h6>
 <ul>
 <li>Evtl. Trennung von allgemeinen Menüpunkten und Konfiguration, d. h. ein eigenes Menü auf dem zweiten Desktop, aus dem sich bei Bedarf eben auch avnav_setup starten lässt</li>
+<li>Unterstützun für Edimax AC600 Karten</li>
 </ul>
 <h6>Planungen für's Konfigurationstool</h6>
 <ul>
