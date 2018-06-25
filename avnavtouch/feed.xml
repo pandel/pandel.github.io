@@ -3,12 +3,35 @@
     <title>pandels-softwareecke</title>
     <link href="https://pandel.github.io/avnavtouch/feed.xml" rel="self" />
     <link href="https://pandel.github.io/avnavtouch" />
-    <updated>2018-06-23T03:47:13+02:00</updated>
+    <updated>2018-06-25T02:56:13+02:00</updated>
     <author>
         <name>Holger Pandel</name>
     </author>
     <id>https://pandel.github.io/avnavtouch</id>
 
+    <entry>
+        <title>v0.6 - ist raus, das Update lohnt sich!</title>
+        <author>
+            <name>Holger Pandel</name>
+        </author>
+        <link href="https://pandel.github.io/avnavtouch/v0.6-ist-raus-das-Update-lohnt-sich.html"/>
+        <id>https://pandel.github.io/avnavtouch/v0.6-ist-raus-das-Update-lohnt-sich.html</id>
+
+        <updated>2018-06-25T02:44:49+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://pandel.github.io/avnavtouch/media/posts/18/boat-folding-origami-19678.jpg" alt="" />
+                <p>Kurzfristig nach der v0.5 habe ich jetzt die v0.6 draussen. Da waren doch einige blöde Fehler drin, die jetzt behoben sind. Zusätzlich gibt es ein paar neue Features, die sich nützlich machen:</p>
+<ul>
+<li>Datenbackups können ganz easy vom Stick wieder eingelesen werden</li>
+<li>Helligkeitsregelung für den original RPi 7'' Touchscreen</li>
+<li>TBO Player, für Videos und Youtube, falls es mal zu Langeweile kommen solle und man sonst kein OS drauf hat, mit dem man das machen kann</li>
+</ul>
+<p>Und natürlich das gefixte Konfigurationstool, dass jetzt endlich auch wieder sauber im Servermodus läuft. </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>v0.5 - Die ersten Fehler</title>
         <author>
@@ -18,7 +41,7 @@
         <id>https://pandel.github.io/avnavtouch/v05-die-ersten-fehler.html</id>
             <category term="avnavTouch"/>
 
-        <updated>2018-06-23T03:45:24+02:00</updated>
+        <updated>2018-06-25T02:39:12+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -29,6 +52,7 @@
 <li>WLAN Passwort Länge wird im avnav_setup nicht geprüft, erzeugt evtl. fehlerhaften Eintrag in der wpa_supplicant.conf</li>
 <li>Ich habe die falsche Version vom Konfigurator mitgeliefert. Der läuft nur im Touchmodus rund. Dämlicher geht's kaum...</li>
 </ul>
+<p>Egal, alles gefixt in v0.6 ;-)</p>
             ]]>
         </content>
     </entry>
@@ -90,15 +114,15 @@
             <category term="avnavTouch"/>
             <category term="Konfigurationstool"/>
 
-        <updated>2018-06-21T21:12:36+02:00</updated>
+        <updated>2018-06-25T02:36:59+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://pandel.github.io/avnavtouch/media/posts/14/avnavKonfigtool.PNG" alt="" />
+                    <img src="https://pandel.github.io/avnavtouch/media/posts/14/2018-06-25-02_34_44-Window.png" alt="" />
                 <h4>Preview: ein neue Helfer ist mit an Bord</h4>
 <h2>avnavTouch Konfigurationstool</h2>
-<p><img src="https://pandel.github.io/avnavtouch/media/posts/14/avnavKonfigtool.PNG" alt="" width="806" height="485"></p>
-<p>Mit Hilfe des neuen Konfigurationstools können verschiedene Einstellungen vorgenommen werden, ohne auf eine Kommandozeile wechseln zu müssen.</p>
+<p><img src="https://pandel.github.io/avnavtouch/media/posts/14/2018-06-25-02_34_44-Window.png" alt="" width="798" height="479"></p>
+<p>(Nachfolgende Bilder und Darstellung im Video können abweichen, da die Version dort schon etwas älter ist.)<br>Mit Hilfe des neuen Konfigurationstools können verschiedene Einstellungen vorgenommen werden, ohne auf eine Kommandozeile wechseln zu müssen.</p>
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/i_xmDktFmN8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></p>
 <p>Wie hier zu sehen, steht das Konfigurationstool je nach Oberfläche sowohl als Touch-fähige Variante, als auch auf der Konsole zur Verfügung. </p>
 <p><img class="post__image--center" src="https://pandel.github.io/avnavtouch/media/posts/14/Konfigtool.png" alt="" width="800" height="480"></p>
@@ -181,7 +205,7 @@
         <link href="https://pandel.github.io/avnavtouch/roadmap.html"/>
         <id>https://pandel.github.io/avnavtouch/roadmap.html</id>
 
-        <updated>2018-06-23T03:45:49+02:00</updated>
+        <updated>2018-06-25T02:38:45+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -189,22 +213,22 @@
                 <h6>Allgemeine Punkt</h6>
 <ul>
 <li>Evtl. Trennung von allgemeinen Menüpunkten und Konfiguration, d. h. ein eigenes Menü auf dem zweiten Desktop, aus dem sich bei Bedarf eben auch avnav_setup starten lässt</li>
-<li>Unterstützun für Edimax AC600 Karten</li>
+<li>Unterstützung für Edimax AC600 Karten</li>
 </ul>
 <h6>Planungen für's Konfigurationstool</h6>
 <ul>
 <li>Einfügen eines neuen RTL-SDR Receivers in die bestehende udev-Regel</li>
 <li>Frequenzoffsetanpassung</li>
-<li>Prüfung des WLAN Kennwortes auf Länge (8-63 Zeichen)</li>
-<li>Aufnahme der wpa_supplicant.conf/hostapd.conf mit ins Backup</li>
-<li>Möglichkeit zur Backup Rücksicherung</li>
+<li><span style="text-decoration: line-through;">Prüfung des WLAN Kennwortes auf Länge (8-63 Zeichen)</span> - erledigt v0.6</li>
+<li>Aufnahme der <span style="text-decoration: line-through;">wpa_supplicant.conf</span>/hostapd.conf mit ins Backup - teilweise erledigt v0.6</li>
+<li><span style="text-decoration: line-through;">Möglichkeit zur Backup Rücksicherung</span> - erledigt v0.6</li>
 </ul>
 <h6>Planungen für avnavTouch</h6>
 <ul>
 <li><span style="text-decoration: line-through;">automatisierte Backups der Benutzerdaten via USB Stick</span> - erledigt: 0.5v</li>
 <li><span style="text-decoration: line-through;">Release Konfigurationstool</span> - erledigt: 0.5v</li>
-<li>Integration von <a href="https://github.com/linusg/rpi-backlight" target="_blank" rel="noopener noreferrer">https://github.com/linusg/rpi-backlight</a> als Menüpunkt in avnav_setup</li>
-<li>eventuell: Player Integration: <a href="https://github.com/KenT2/tboplayer" class="externalURL">https://github.com/KenT2/tboplayer</a></li>
+<li><span style="text-decoration: line-through;">Integration von <a href="https://github.com/linusg/rpi-backlight" target="_blank" rel="noopener noreferrer">https://github.com/linusg/rpi-backlight</a> als Menüpunkt in avnav_setup</span> - erledigt v0.6</li>
+<li><span style="text-decoration: line-through;">eventuell: Player Integration: <a href="https://github.com/KenT2/tboplayer" class="externalURL">https://github.com/KenT2/tboplayer</a></span><a href="https://github.com/KenT2/tboplayer" class="externalURL"></a> - erledigt v0.6</li>
 </ul>
             ]]>
         </content>
@@ -232,27 +256,6 @@
 <li>Befehl: "lsusb", neues Gerät (neue Zeile ;-) ) finden und die<br>VendorID:ProduktID Kombi aufschreiben, bei dem Nooelec Stick ist es bspw. "0bda:2838"</li>
 <li>die Datei /etc/ude/rules.d/71-rtl-sdr.rules öffnen, die bestehende Zeile einfach kopieren, wieder einfügen und an den entsprechenden Stellen VendorID und ProduktID eintragen, booten, fertig. Beim Einstecken sollte der Stick erkannt und rtl_ais gestartet werden.</li>
 </ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Kartenimport und -update via USB Stick</title>
-        <author>
-            <name>Holger Pandel</name>
-        </author>
-        <link href="https://pandel.github.io/avnavtouch/Kartenimport-und-update-via-USB-Stick.html"/>
-        <id>https://pandel.github.io/avnavtouch/Kartenimport-und-update-via-USB-Stick.html</id>
-            <category term="avnavTouch"/>
-            <category term="Karten"/>
-
-        <updated>2018-06-21T19:57:42+02:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://pandel.github.io/avnavtouch/media/posts/6/antik-antiquitat-ausrustung-164887.jpg" alt="" />
-                <h6>Kartenimport und -update via USB Stick (nur im Touchmodus verfügbar)</h6>
-<p><br>Karten müssen einfach nur in einem Ordner mit dem Namen "charts" (alles Kleinbuchstaben) auf einem Stick (FAT32) liegen, dann werden sie automatisch mit dem Stand auf dem Raspi abgeglichen. D. h. der Stand auf dem Raspi wird mit dem auf dem Stick gleichgezogen, also auch Karten gelöscht, falls nicht auf dem Stick(!). Es kommen ein paar netten Meldungen und der Stick wird, wenn fertig, wieder ausgehängt und kann einfach entfernt werden (ist derzeit für den reinen Serverbetrieb nicht geplant, wenn Bedarf besteht, mach ich das aber).</p>
-<p><br>Bitte auf jeden Fall warten bis die "Stick kann entfernt werden" Meldung kommt! Ansonsten ist der Schreibvorgang noch aktiv!</p>
             ]]>
         </content>
     </entry>

@@ -10,10 +10,24 @@
     },
     "items": [
         {
+            "id": "https://pandel.github.io/avnavtouch/v0.6-ist-raus-das-Update-lohnt-sich.html",
+            "url": "https://pandel.github.io/avnavtouch/v0.6-ist-raus-das-Update-lohnt-sich.html",
+            "title": "v0.6 - ist raus, das Update lohnt sich!",
+            "content_html": "<p>Kurzfristig nach der v0.5 habe ich jetzt die v0.6 draussen. Da waren doch einige blöde Fehler drin, die jetzt behoben sind. Zusätzlich gibt es ein paar neue Features, die sich nützlich machen:</p>\n<ul>\n<li>Datenbackups können ganz easy vom Stick wieder eingelesen werden</li>\n<li>Helligkeitsregelung für den original RPi 7'' Touchscreen</li>\n<li>TBO Player, für Videos und Youtube, falls es mal zu Langeweile kommen solle und man sonst kein OS drauf hat, mit dem man das machen kann</li>\n</ul>\n<p>Und natürlich das gefixte Konfigurationstool, dass jetzt endlich auch wieder sauber im Servermodus läuft. </p>",
+            "image": "https://pandel.github.io/avnavtouch/media/posts/18/boat-folding-origami-19678.jpg",
+            "author": {
+                "name": "Holger Pandel"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-06-25T02:44:49+02:00",
+            "date_modified": "2018-06-25T02:44:49+02:00"
+        },
+        {
             "id": "https://pandel.github.io/avnavtouch/v05-die-ersten-fehler.html",
             "url": "https://pandel.github.io/avnavtouch/v05-die-ersten-fehler.html",
             "title": "v0.5 - Die ersten Fehler",
-            "content_html": "<p>Wäre ja auch zu schön, wenn mal alles glatt laufen würde. Egal, Tränen abwischen und weitermachen.</p>\n<p>Die ersten Fehlerberichte trudeln ein. Darunter gesellen sich so illustre Dinge, wie (wird fortgesetzt, wenn nötig):</p>\n<ul>\n<li>WLAN Passwort Länge wird im avnav_setup nicht geprüft, erzeugt evtl. fehlerhaften Eintrag in der wpa_supplicant.conf</li>\n<li>Ich habe die falsche Version vom Konfigurator mitgeliefert. Der läuft nur im Touchmodus rund. Dämlicher geht's kaum...</li>\n</ul>",
+            "content_html": "<p>Wäre ja auch zu schön, wenn mal alles glatt laufen würde. Egal, Tränen abwischen und weitermachen.</p>\n<p>Die ersten Fehlerberichte trudeln ein. Darunter gesellen sich so illustre Dinge, wie (wird fortgesetzt, wenn nötig):</p>\n<ul>\n<li>WLAN Passwort Länge wird im avnav_setup nicht geprüft, erzeugt evtl. fehlerhaften Eintrag in der wpa_supplicant.conf</li>\n<li>Ich habe die falsche Version vom Konfigurator mitgeliefert. Der läuft nur im Touchmodus rund. Dämlicher geht's kaum...</li>\n</ul>\n<p>Egal, alles gefixt in v0.6 ;-)</p>",
             "image": "https://pandel.github.io/avnavtouch/media/posts/17/dropped-fail-failure-4091.jpg",
             "author": {
                 "name": "Holger Pandel"
@@ -22,7 +36,7 @@
                    "avnavTouch"
             ],
             "date_published": "2018-06-22T14:39:29+02:00",
-            "date_modified": "2018-06-23T03:45:24+02:00"
+            "date_modified": "2018-06-25T02:39:12+02:00"
         },
         {
             "id": "https://pandel.github.io/avnavtouch/alle-welt-liebt-videos.html",
@@ -61,8 +75,8 @@
             "id": "https://pandel.github.io/avnavtouch/avnavtouch-konfigurationstool.html",
             "url": "https://pandel.github.io/avnavtouch/avnavtouch-konfigurationstool.html",
             "title": "avnavTouch Konfigurationstool",
-            "content_html": "<h4>Preview: ein neue Helfer ist mit an Bord</h4>\n<h2>avnavTouch Konfigurationstool</h2>\n<p><img src=\"https://pandel.github.io/avnavtouch/media/posts/14/avnavKonfigtool.PNG\" alt=\"\" width=\"806\" height=\"485\"></p>\n<p>Mit Hilfe des neuen Konfigurationstools können verschiedene Einstellungen vorgenommen werden, ohne auf eine Kommandozeile wechseln zu müssen.</p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/i_xmDktFmN8?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p>Wie hier zu sehen, steht das Konfigurationstool je nach Oberfläche sowohl als Touch-fähige Variante, als auch auf der Konsole zur Verfügung. </p>\n<p><img class=\"post__image--center\" src=\"https://pandel.github.io/avnavtouch/media/posts/14/Konfigtool.png\" alt=\"\" width=\"800\" height=\"480\"></p>\n<p> </p>",
-            "image": "https://pandel.github.io/avnavtouch/media/posts/14/avnavKonfigtool.PNG",
+            "content_html": "<h4>Preview: ein neue Helfer ist mit an Bord</h4>\n<h2>avnavTouch Konfigurationstool</h2>\n<p><img src=\"https://pandel.github.io/avnavtouch/media/posts/14/2018-06-25-02_34_44-Window.png\" alt=\"\" width=\"798\" height=\"479\"></p>\n<p>(Nachfolgende Bilder und Darstellung im Video können abweichen, da die Version dort schon etwas älter ist.)<br>Mit Hilfe des neuen Konfigurationstools können verschiedene Einstellungen vorgenommen werden, ohne auf eine Kommandozeile wechseln zu müssen.</p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/i_xmDktFmN8?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<p>Wie hier zu sehen, steht das Konfigurationstool je nach Oberfläche sowohl als Touch-fähige Variante, als auch auf der Konsole zur Verfügung. </p>\n<p><img class=\"post__image--center\" src=\"https://pandel.github.io/avnavtouch/media/posts/14/Konfigtool.png\" alt=\"\" width=\"800\" height=\"480\"></p>\n<p> </p>",
+            "image": "https://pandel.github.io/avnavtouch/media/posts/14/2018-06-25-02_34_44-Window.png",
             "author": {
                 "name": "Holger Pandel"
             },
@@ -71,7 +85,7 @@
                    "Konfigurationstool"
             ],
             "date_published": "2018-06-18T22:05:14+02:00",
-            "date_modified": "2018-06-21T21:12:36+02:00"
+            "date_modified": "2018-06-25T02:36:59+02:00"
         },
         {
             "id": "https://pandel.github.io/avnavtouch/Ein-Willkommen-darf-nicht-fehlen-.html",
@@ -123,7 +137,7 @@
             "id": "https://pandel.github.io/avnavtouch/roadmap.html",
             "url": "https://pandel.github.io/avnavtouch/roadmap.html",
             "title": "Roadmap",
-            "content_html": "<h6>Allgemeine Punkt</h6>\n<ul>\n<li>Evtl. Trennung von allgemeinen Menüpunkten und Konfiguration, d. h. ein eigenes Menü auf dem zweiten Desktop, aus dem sich bei Bedarf eben auch avnav_setup starten lässt</li>\n<li>Unterstützun für Edimax AC600 Karten</li>\n</ul>\n<h6>Planungen für's Konfigurationstool</h6>\n<ul>\n<li>Einfügen eines neuen RTL-SDR Receivers in die bestehende udev-Regel</li>\n<li>Frequenzoffsetanpassung</li>\n<li>Prüfung des WLAN Kennwortes auf Länge (8-63 Zeichen)</li>\n<li>Aufnahme der wpa_supplicant.conf/hostapd.conf mit ins Backup</li>\n<li>Möglichkeit zur Backup Rücksicherung</li>\n</ul>\n<h6>Planungen für avnavTouch</h6>\n<ul>\n<li><span style=\"text-decoration: line-through;\">automatisierte Backups der Benutzerdaten via USB Stick</span> - erledigt: 0.5v</li>\n<li><span style=\"text-decoration: line-through;\">Release Konfigurationstool</span> - erledigt: 0.5v</li>\n<li>Integration von <a href=\"https://github.com/linusg/rpi-backlight\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/linusg/rpi-backlight</a> als Menüpunkt in avnav_setup</li>\n<li>eventuell: Player Integration: <a href=\"https://github.com/KenT2/tboplayer\" class=\"externalURL\">https://github.com/KenT2/tboplayer</a></li>\n</ul>",
+            "content_html": "<h6>Allgemeine Punkt</h6>\n<ul>\n<li>Evtl. Trennung von allgemeinen Menüpunkten und Konfiguration, d. h. ein eigenes Menü auf dem zweiten Desktop, aus dem sich bei Bedarf eben auch avnav_setup starten lässt</li>\n<li>Unterstützung für Edimax AC600 Karten</li>\n</ul>\n<h6>Planungen für's Konfigurationstool</h6>\n<ul>\n<li>Einfügen eines neuen RTL-SDR Receivers in die bestehende udev-Regel</li>\n<li>Frequenzoffsetanpassung</li>\n<li><span style=\"text-decoration: line-through;\">Prüfung des WLAN Kennwortes auf Länge (8-63 Zeichen)</span> - erledigt v0.6</li>\n<li>Aufnahme der <span style=\"text-decoration: line-through;\">wpa_supplicant.conf</span>/hostapd.conf mit ins Backup - teilweise erledigt v0.6</li>\n<li><span style=\"text-decoration: line-through;\">Möglichkeit zur Backup Rücksicherung</span> - erledigt v0.6</li>\n</ul>\n<h6>Planungen für avnavTouch</h6>\n<ul>\n<li><span style=\"text-decoration: line-through;\">automatisierte Backups der Benutzerdaten via USB Stick</span> - erledigt: 0.5v</li>\n<li><span style=\"text-decoration: line-through;\">Release Konfigurationstool</span> - erledigt: 0.5v</li>\n<li><span style=\"text-decoration: line-through;\">Integration von <a href=\"https://github.com/linusg/rpi-backlight\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/linusg/rpi-backlight</a> als Menüpunkt in avnav_setup</span> - erledigt v0.6</li>\n<li><span style=\"text-decoration: line-through;\">eventuell: Player Integration: <a href=\"https://github.com/KenT2/tboplayer\" class=\"externalURL\">https://github.com/KenT2/tboplayer</a></span><a href=\"https://github.com/KenT2/tboplayer\" class=\"externalURL\"></a> - erledigt v0.6</li>\n</ul>",
             "image": "https://pandel.github.io/avnavtouch/media/posts/8/asphalt-desert-freedom-248759.jpg",
             "author": {
                 "name": "Holger Pandel"
@@ -131,7 +145,7 @@
             "tags": [
             ],
             "date_published": "2018-06-18T13:24:42+02:00",
-            "date_modified": "2018-06-23T03:45:49+02:00"
+            "date_modified": "2018-06-25T02:38:45+02:00"
         },
         {
             "id": "https://pandel.github.io/avnavtouch/Einbindung-eines-neuen-RTL-SDR-Receivers-via-udev.html",
@@ -147,22 +161,6 @@
             ],
             "date_published": "2018-06-18T13:24:18+02:00",
             "date_modified": "2018-06-21T20:05:27+02:00"
-        },
-        {
-            "id": "https://pandel.github.io/avnavtouch/Kartenimport-und-update-via-USB-Stick.html",
-            "url": "https://pandel.github.io/avnavtouch/Kartenimport-und-update-via-USB-Stick.html",
-            "title": "Kartenimport und -update via USB Stick",
-            "content_html": "<h6>Kartenimport und -update via USB Stick (nur im Touchmodus verfügbar)</h6>\n<p><br>Karten müssen einfach nur in einem Ordner mit dem Namen \"charts\" (alles Kleinbuchstaben) auf einem Stick (FAT32) liegen, dann werden sie automatisch mit dem Stand auf dem Raspi abgeglichen. D. h. der Stand auf dem Raspi wird mit dem auf dem Stick gleichgezogen, also auch Karten gelöscht, falls nicht auf dem Stick(!). Es kommen ein paar netten Meldungen und der Stick wird, wenn fertig, wieder ausgehängt und kann einfach entfernt werden (ist derzeit für den reinen Serverbetrieb nicht geplant, wenn Bedarf besteht, mach ich das aber).</p>\n<p><br>Bitte auf jeden Fall warten bis die \"Stick kann entfernt werden\" Meldung kommt! Ansonsten ist der Schreibvorgang noch aktiv!</p>",
-            "image": "https://pandel.github.io/avnavtouch/media/posts/6/antik-antiquitat-ausrustung-164887.jpg",
-            "author": {
-                "name": "Holger Pandel"
-            },
-            "tags": [
-                   "avnavTouch",
-                   "Karten"
-            ],
-            "date_published": "2018-06-18T13:22:51+02:00",
-            "date_modified": "2018-06-21T19:57:42+02:00"
         }
     ]
 }
